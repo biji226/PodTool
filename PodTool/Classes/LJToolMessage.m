@@ -7,12 +7,15 @@
 //
 
 #import "LJToolMessage.h"
+#import "TextViewController.h"
 
 @implementation LJToolMessage
 
 - (void)message
 {
-    NSLog(@"=======");
+    NSLog(@"=======222");
+    TextViewController *shou = [TextViewController new];
+    [shou showAlert];
 }
 
 @end

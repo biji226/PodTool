@@ -63,9 +63,9 @@
 		78BABB720A6A42BBB7FE5536 /* Pods-PodTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AE8E48D666D992F3D1DA103 /* Pods-PodTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodTool_Tests/Pods-PodTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BBC247C49527C0F76A6545B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC95E589BFA71BF6A817B3E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F517AD00C20D1CEF1882C4E3 /* PodTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PodTool.podspec; path = ../PodTool.podspec; sourceTree = "<group>"; };
+		BBC247C49527C0F76A6545B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC95E589BFA71BF6A817B3E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F517AD00C20D1CEF1882C4E3 /* PodTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PodTool.podspec; path = ../PodTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF74F2120E4103E5F3FEDF4A /* Pods-PodTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
