@@ -1,0 +1,6 @@
+framework module PodTool {
+  umbrella header "PodTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

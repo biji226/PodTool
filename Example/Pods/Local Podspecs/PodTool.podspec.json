@@ -1,0 +1,22 @@
+{
+  "name": "PodTool",
+  "version": "0.1.0",
+  "summary": "A short description of PodTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/979777360@qq.com/PodTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "979777360@qq.com": "Jeffry@jollycorp.com"
+  },
+  "source": {
+    "git": "https://github.com/979777360@qq.com/PodTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodTool/Classes/**/*"
+}
