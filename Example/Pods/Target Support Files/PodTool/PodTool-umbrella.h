@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LJToolMessage.h"
 
 FOUNDATION_EXPORT double PodToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodToolVersionString[];
