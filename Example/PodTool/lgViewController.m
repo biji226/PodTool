@@ -7,7 +7,7 @@
 //
 
 #import "lgViewController.h"
-#import "LJToolMessage.h"
+//#import "LJToolMessage.h"
 @interface lgViewController ()
 
 @end
@@ -18,8 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    LJToolMessage *view = [LJToolMessage new];
-    [view message];
+//    LJToolMessage *view = [LJToolMessage new];
+//    [view message];
 }
 
 - (void)didReceiveMemoryWarning

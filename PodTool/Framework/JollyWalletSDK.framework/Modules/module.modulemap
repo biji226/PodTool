@@ -1,0 +1,6 @@
+framework module JollyWalletSDK {
+  umbrella header "JollyWalletSDK.h"
+
+  export *
+  module * { export * }
+}

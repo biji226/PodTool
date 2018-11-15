@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D659174C400D6D1175F25D26 /* [CP] Embed Pods Frameworks */,
+				85C17D67961BEC3FDB156F8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +339,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodTool_Tests/Pods-PodTool_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D659174C400D6D1175F25D26 /* [CP] Embed Pods Frameworks */ = {
+		85C17D67961BEC3FDB156F8E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,18 +347,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PodTool/PodTool.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example-resources.sh",
+				"${PODS_ROOT}/../../PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PodTool.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JollyWalletSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodTool_Example/Pods-PodTool_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1F59E663ECE8AA6F30DCACC /* [CP] Check Pods Manifest.lock */ = {

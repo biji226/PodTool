@@ -1,6 +1,6 @@
 {
   "name": "PodTool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "PodTool message.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/biji226/PodTool",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/biji226/PodTool.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodTool/Classes/**/*"
+  "vendored_frameworks": "PodTool/Framework/JollyWalletSDK.framework",
+  "resources": "PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle"
 }

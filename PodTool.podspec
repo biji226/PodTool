@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTool'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'PodTool message.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodTool/Classes/**/*'
-  
+#  s.source_files = 'PodTool/Classes/**/*'
+  s.vendored_frameworks = 'PodTool/Framework/JollyWalletSDK.framework'
+   s.resources          = 'PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle'
   # s.resource_bundles = {
   #   'PodTool' => ['PodTool/Assets/*.png']
   # }

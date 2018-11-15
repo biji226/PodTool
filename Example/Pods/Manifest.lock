@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - PodTool (0.0.3)
+  - PodTool (0.0.4)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PodTool: 6004b194fbbc5d529212f5f5b882fba973bac198
+  PodTool: 38b54d8679e45c282ab218c55a9bb67a3ed7fac8
 
 PODFILE CHECKSUM: 654867bc062c1cce5153ea466ce721f8c49b870f
 
