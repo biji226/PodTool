@@ -30,7 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-#  s.source_files = 'PodTool/Classes/**/*'
+  s.source_files = 'PodTool/Classes/**/*'
+  s.exclude_files = 'PodTool/Exclude/**/*'
   s.vendored_frameworks = 'PodTool/Framework/JollyWalletSDK.framework'
    s.resources          = 'PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle'
   # s.resource_bundles = {

@@ -11,7 +11,6 @@
 #endif
 
 #import "LJToolMessage.h"
-#import "TextViewController.h"
 
 FOUNDATION_EXPORT double PodToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodToolVersionString[];
