@@ -31,14 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'PodTool/Classes/**/*'
-  s.exclude_files = 'PodTool/Exclude/**/*'
   s.vendored_frameworks = 'PodTool/Framework/JollyWalletSDK.framework'
    s.resources          = 'PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle'
   # s.resource_bundles = {
   #   'PodTool' => ['PodTool/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

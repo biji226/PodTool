@@ -19,7 +19,7 @@
     "ios": "8.0"
   },
   "source_files": "PodTool/Classes/**/*",
-  "exclude_files": "PodTool/Exclude/**/*",
   "vendored_frameworks": "PodTool/Framework/JollyWalletSDK.framework",
-  "resources": "PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle"
+  "resources": "PodTool/Framework/JollyWalletSDK.framework/JollyWalletSDK.bundle",
+  "public_header_files": "Pod/Classes/**/*.h"
 }
